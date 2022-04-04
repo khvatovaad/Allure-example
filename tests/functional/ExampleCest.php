@@ -12,6 +12,7 @@ class ExampleCest
 
     /**
      * @dataProvider dataProvider
+     * Отправляем запрос - проверяем статус ответа 200
      */
     #[
         Feature("post"),
@@ -26,7 +27,6 @@ class ExampleCest
         $tester->haveHttpHeader('Content-Type', 'application/x-www-form-urlencoded');
         $tester->sendPost('post', [$dataProvider['params']]);
         $tester->canSeeResponseCodeIs(200);
-        $tester->checkEmptyPostRequest('post');
 
     }
     #[
@@ -35,6 +35,9 @@ class ExampleCest
         DisplayName("postman/post negative"),
         Label(Label::OWNER,  "Анастасия")
     ]
+     /**
+     * Проверяем что если отправить запрос без параметров - статус ответа 200
+     */
     public function checkPostRequestNegative(FunctionalTester $tester) {
         Allure::tag('negative');
         Allure::description('Пример 3');

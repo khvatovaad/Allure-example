@@ -1,0 +1,90 @@
+{
+    "historyId": "6227b20ca9a885f87186f26979326434",
+    "testCaseId": "e4ee8dce72995fd46f969173585b71e2",
+    "rerunOf": null,
+    "fullName": null,
+    "labels": [
+        {
+            "name": "language",
+            "value": "PHP 8.0"
+        },
+        {
+            "name": "framework",
+            "value": "codeception"
+        },
+        {
+            "name": "parentSuite",
+            "value": "functional"
+        },
+        {
+            "name": "package",
+            "value": "functional"
+        },
+        {
+            "name": "testClass",
+            "value": "ExampleCest"
+        },
+        {
+            "name": "testMethod",
+            "value": "checkPostRequestNegative"
+        },
+        {
+            "name": "host",
+            "value": "Nastya-PC"
+        },
+        {
+            "name": "thread",
+            "value": null
+        },
+        {
+            "name": "feature",
+            "value": "post"
+        },
+        {
+            "name": "severity",
+            "value": "critical"
+        },
+        {
+            "name": "owner",
+            "value": "Анастасия"
+        },
+        {
+            "name": "tag",
+            "value": "negative"
+        }
+    ],
+    "links": [],
+    "status": "passed",
+    "statusDetails": null,
+    "stage": "finished",
+    "steps": [
+        {
+            "status": "passed",
+            "statusDetails": null,
+            "stage": "finished",
+            "steps": [],
+            "attachments": [],
+            "parameters": [
+                {
+                    "name": "#0",
+                    "value": "\"post\"",
+                    "excluded": null,
+                    "mode": null
+                }
+            ],
+            "name": "check empty post request",
+            "description": null,
+            "descriptionHtml": null,
+            "start": 1649075130972,
+            "stop": 1649075132375
+        }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "name": "postman\/post negative",
+    "description": "Пример 3",
+    "descriptionHtml": null,
+    "start": 1649075130970,
+    "stop": 1649075132377,
+    "uuid": "2d44732b-d016-4723-9986-036fe6762ba9"
+}

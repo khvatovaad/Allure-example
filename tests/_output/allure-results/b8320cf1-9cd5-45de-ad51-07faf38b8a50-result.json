@@ -1,0 +1,175 @@
+{
+    "historyId": "6407dc12277bc92498ede91786101b0d",
+    "testCaseId": "f4173d514bd1f86600d5d695d4afd2dd",
+    "rerunOf": null,
+    "fullName": null,
+    "labels": [
+        {
+            "name": "language",
+            "value": "PHP 8.0"
+        },
+        {
+            "name": "framework",
+            "value": "codeception"
+        },
+        {
+            "name": "parentSuite",
+            "value": "functional"
+        },
+        {
+            "name": "package",
+            "value": "functional"
+        },
+        {
+            "name": "testClass",
+            "value": "ExampleCest"
+        },
+        {
+            "name": "testMethod",
+            "value": "checkPostRequest"
+        },
+        {
+            "name": "host",
+            "value": "Nastya-PC"
+        },
+        {
+            "name": "thread",
+            "value": null
+        },
+        {
+            "name": "feature",
+            "value": "post"
+        },
+        {
+            "name": "severity",
+            "value": "critical"
+        },
+        {
+            "name": "owner",
+            "value": "Анастасия"
+        },
+        {
+            "name": "tag",
+            "value": "positive"
+        }
+    ],
+    "links": [],
+    "status": "passed",
+    "statusDetails": null,
+    "stage": "finished",
+    "steps": [
+        {
+            "status": "passed",
+            "statusDetails": null,
+            "stage": "finished",
+            "steps": [],
+            "attachments": [],
+            "parameters": [
+                {
+                    "name": "#0",
+                    "value": "\"Content-Type\"",
+                    "excluded": null,
+                    "mode": null
+                },
+                {
+                    "name": "#1",
+                    "value": "\"application\/x-www-form-urlencoded\"",
+                    "excluded": null,
+                    "mode": null
+                }
+            ],
+            "name": "have http header",
+            "description": null,
+            "descriptionHtml": null,
+            "start": 1649075129423,
+            "stop": 1649075129423
+        },
+        {
+            "status": "passed",
+            "statusDetails": null,
+            "stage": "finished",
+            "steps": [],
+            "attachments": [],
+            "parameters": [
+                {
+                    "name": "#0",
+                    "value": "\"post\"",
+                    "excluded": null,
+                    "mode": null
+                },
+                {
+                    "name": "#1",
+                    "value": "[{\"strange\":\"boom11\"}]",
+                    "excluded": null,
+                    "mode": null
+                }
+            ],
+            "name": "send post",
+            "description": null,
+            "descriptionHtml": null,
+            "start": 1649075129423,
+            "stop": 1649075130637
+        },
+        {
+            "status": "passed",
+            "statusDetails": null,
+            "stage": "finished",
+            "steps": [],
+            "attachments": [],
+            "parameters": [
+                {
+                    "name": "#0",
+                    "value": "200",
+                    "excluded": null,
+                    "mode": null
+                }
+            ],
+            "name": "can see response code is",
+            "description": null,
+            "descriptionHtml": null,
+            "start": 1649075130637,
+            "stop": 1649075130637
+        },
+        {
+            "status": "passed",
+            "statusDetails": null,
+            "stage": "finished",
+            "steps": [],
+            "attachments": [],
+            "parameters": [
+                {
+                    "name": "#0",
+                    "value": "\"post\"",
+                    "excluded": null,
+                    "mode": null
+                }
+            ],
+            "name": "check empty post request",
+            "description": null,
+            "descriptionHtml": null,
+            "start": 1649075130637,
+            "stop": 1649075130960
+        }
+    ],
+    "attachments": [],
+    "parameters": [
+        {
+            "name": "title",
+            "value": "\"Пример 2\"",
+            "excluded": null,
+            "mode": null
+        },
+        {
+            "name": "params",
+            "value": "{\"strange\":\"boom11\"}",
+            "excluded": null,
+            "mode": null
+        }
+    ],
+    "name": "postman\/post positive",
+    "description": "Пример 2",
+    "descriptionHtml": null,
+    "start": 1649075129421,
+    "stop": 1649075130965,
+    "uuid": "b8320cf1-9cd5-45de-ad51-07faf38b8a50"
+}
